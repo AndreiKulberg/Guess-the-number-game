@@ -1,7 +1,7 @@
 import random
 
 def generate_number():
-    return random.randint(1, 10)
+    return random.randint(1, 100)
 
 def check_guess(secret_number, guess):
     if guess > secret_number:
@@ -16,7 +16,7 @@ def main():
         secret_number = generate_number()
         attempts = 0
 
-        print("Давайте играть в угадай число! Я загадал число от 1 до 10.")
+        print("Давайте играть в угадай число! Я загадал число от 1 до 100.")
         
         while True:
             try:
