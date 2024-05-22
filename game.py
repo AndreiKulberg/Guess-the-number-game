@@ -15,6 +15,7 @@ def main():
     while True:
         secret_number = generate_number()
         attempts = 0
+        max_attempts = 10
 
         print("Давайте играть в угадай число! Я загадал число от 1 до 100.")
         
